@@ -9,7 +9,7 @@ Let's discover **React Ultimate Messenger in less than 5 minutes**.
 
 ## Online Demo sites
 
-** You can try Classic React Ultimate Messenger ** **[here](https://react-ultimate-messenger.netlify.app/) **,
+**You can try Classic React Ultimate Messenger** **[here](https://react-ultimate-messenger.netlify.app/)**,
 
 (The demo is not fully functional without the server started locally*)
 
