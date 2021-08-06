@@ -51,14 +51,6 @@ go to your folder app
 cd my-app
 ```
 
-***If you have nvm installed:***
-
-> the chat application requires at least version 12 of Node.js, the nvmrc file is initialized with version 14.15.1. If you have version 12 or higher everything will work fine!
-> Otherwise rename the .nvmrc.example file to .nvmrc and then you can change your Node version by simply doing:
-> ```shell
-> nvm use
-> ```
-
 At this stage, you have two lines of code to do:
 
  * *I made several scripts in the package.json so that everything is automatic!*
@@ -70,6 +62,14 @@ npm run initAll
 > - This script will first install the necessary node_modules in the messages-images server, then create an images folder (in which the images sent in the chat will be sent), then rename the .env.example file to .env.
 > - And finally, he will rename the .env.local.example file to .env.local in the React frontend folder.
 
+
+> ***If you have nvm installed:***
+>
+> the chat application requires at least version 12 of Node.js, the nvmrc file is initialized with version 14.15.1. If you have version 12 or higher everything will work fine!
+> Otherwise you can change your Node version by simply doing:
+> ```shell
+> nvm use
+> ```
 
 And the second line is to start all the services.
 ```shell
