@@ -38,7 +38,7 @@
     "frontInit": "yarn &&  mv -v .env.local.example .env.local",
     "initAll":"yarn messServInit && yarn frontInit",
     "startBack":"cd backend-messages-pictures && npm run start",
-    "dev": "yarn startBack &&  npm start"
+    "dev": " npm start && yarn startBack"
   },
   "eslintConfig": {
     "extends": [
