@@ -6,6 +6,10 @@ Let's discover **React Ultimate Messenger in less than 5 minutes**.
 
  ![alt text](/img/rum-version.png "RUM versions")
 
+ ## Full documentation site
+
+**You can go directly to the complete documentation site about the application and its different versions available.** **[here](https://react-ultimate-messenger-documentation.netlify.app/)**,
+
 
 ## Online Demo sites
 
