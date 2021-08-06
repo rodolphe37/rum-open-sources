@@ -59,8 +59,8 @@ The first line is for initializing all servers
 ```shell
 npm run initAll
 ```
-> - This script will first install the necessary node_modules in the messages-images server, then create an images folder (in which the images sent in the chat will be sent), then rename the .env.example file to .env.
-> - And finally, he will rename the .env.local.example file to .env.local in the React frontend folder.
+> - This script will first install the necessary node_modules in the messages-images server, then create an uploads folder (in which the images sent in the chat will be sent), then rename the .env.example file to .env.
+> - And finally, he will rename the .env.local.example file to .env.local & .nvmrc.example to .nvmrc in the React frontend folder.
 
 
  ***If you have nvm installed:***
