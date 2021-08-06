@@ -63,8 +63,8 @@ npm run initAll
 > - And finally, he will rename the .env.local.example file to .env.local in the React frontend folder.
 
 
-> ***If you have nvm installed:***
->
+ ***If you have nvm installed:***
+
 > the chat application requires at least version 12 of Node.js, the nvmrc file is initialized with version 14.15.1. If you have version 12 or higher everything will work fine!
 > Otherwise you can change your Node version by simply doing:
 > ```shell
