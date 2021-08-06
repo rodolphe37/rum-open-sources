@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# Tutorial Intro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Let's discover **React Ultimate Messenger in less than 5 minutes**.
 
-## Available Scripts
+### Classic RUM version's
 
-In the project directory, you can run:
+ ![alt text](/img/rum-version.png "RUM versions")
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Online Demo sites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**You can try Classic React Ultimate Messenger ** **[here](https://react-ultimate-messenger.netlify.app/) **,
 
-### `yarn test`
+(The demo is not fully functional without the server started locally*)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+> *you can only send/receive messages if you have the server locally on your machine -
+> I explain how to test the online version with your local version further in the documentation...
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Get started by **creating a new React App**.
 
-### `yarn eject`
+## Generate a new React App by create-react-app tool
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Generate a classic React template with **integrated chat**:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+create a folder, go to it and open your terminal from this folder of course,
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+For the moment there is **one line of code to do** before the creation of the React App...
+```shell
+git clone https://github.com/rodolphe37/cra-react-ultimate-messenger.git
+```
+After that, you can do the npx command which allows to install a classic React, but with the template option.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```shell
+npx create-react-app my-app --template file:../path/to/your/template/folder/you/just/cloned/cra-react-ultimate-messenger
+```
 
-## Learn More
+## Start your site
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+***Run the development server:***
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+go to your folder app
+```shell
+cd my-app
+```
 
-### Code Splitting
+***If you have nvm installed:***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> the chat application requires at least version 12 of Node.js, the nvmrc file is initialized with version 14.15.1. If you have version 12 or higher everything will work fine!
+> Otherwise you can change your Node version by simply doing:
+> ```shell
+> nvm use
+> ```
 
-### Analyzing the Bundle Size
+At this stage, you have two lines of code to do:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ * *I made several scripts in the package.json so that everything is automatic!*
 
-### Making a Progressive Web App
+The first line is for initializing all servers
+```shell
+npm run initAll
+```
+> - This script will first install the necessary node_modules in the messages-images server, then create an images folder (in which the images sent in the chat will be sent), then rename the .env.example file to .env.
+> - And finally, he will rename the .env.local.example file to .env.local in the React frontend folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+And the second line is to start all the services.
+```shell
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  With this single line of code you will start
+ > - the server that manages the chat (messages and images) on port 4000,
+ > - as well as the classic React frontend on the classic port 3000.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Your site starts at `http://localhost:3000`.
 
-### `yarn build` fails to minify
+### How to test your local version with the online version!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> * At this level of the tutorial, you have your backend server(s) and your site started and open at the classic address.
+> You just have to open in another browser window the demo that corresponds to the version you just installed (link available at the top of the page).
+> Then you just have to connect to the same room in both windows and start testing your version.
+
+  ***The left window is the online (prod) version - The right window is your local (dev) version.***
+ ![alt text](/img/test-classic.png "Remote test")
+
+* **Enjoy!**
+
+
+## To work with this version
+
+ Open your App folder with your **usual editor** and **start making your React App as usual**!
+<!--
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like. -->
