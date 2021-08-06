@@ -4,7 +4,7 @@ Let's discover **React Ultimate Messenger in less than 5 minutes**.
 
 ### Classic RUM version repository
 
- ![alt text](/img/rum-version.png "RUM versions")
+ ![alt text](/img/rum-demo.png "RUM versions")
 
  ## Full documentation site
 
