@@ -50,7 +50,7 @@ cd my-app
 ***If you have nvm installed:***
 
 > the chat application requires at least version 12 of Node.js, the nvmrc file is initialized with version 14.15.1. If you have version 12 or higher everything will work fine!
-> Otherwise you can change your Node version by simply doing:
+> Otherwise rename the .nvmrc.example file to .nvmrc and then you can change your Node version by simply doing:
 > ```shell
 > nvm use
 > ```
