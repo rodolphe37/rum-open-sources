@@ -37,8 +37,7 @@
     "messServInit": "cd backend-messages-pictures && npm install && mv -v .env.example .env  && mkdir uploads ",
     "frontInit": "yarn &&  mv -v .env.local.example .env.local && mv -v .nvmrc.example .nvmrc",
     "initAll":"yarn messServInit && yarn frontInit",
-    "startBack":"cd backend-messages-pictures && npm run start",
-    "dev": " npm start && yarn startBack"
+    "dev": " cd backend-messages-pictures && npm start && cd .. & npm start"
   },
   "eslintConfig": {
     "extends": [
