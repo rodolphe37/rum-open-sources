@@ -2,7 +2,7 @@
 
 Let's discover **React Ultimate Messenger in less than 5 minutes**.
 
-### Classic RUM version repository
+### Classic RUM version repository (for open sources contributors)
 
  ![alt text](/img/rum-demo.png "RUM versions")
 
@@ -22,27 +22,20 @@ Let's discover **React Ultimate Messenger in less than 5 minutes**.
 > I explain how to test the online version with your local version further in the documentation...
 
 
-## Getting Started
+## Getting Started to contribute to the project!
 
-Get started by **creating a new React App**.
+you just have to **clone this repository**.
 
-## Generate a new React App by create-react-app tool
+## start the contribution
 
-Generate a classic React template with **integrated chat**:
+Create a folder, go to it and open your terminal from this folder of course,
 
-create a folder, go to it and open your terminal from this folder of course,
-
-For the moment there is **one line of code to do** before the creation of the React App...
+There is **one line of code to do** before the contribution to the App...
 ```shell
-git clone https://github.com/rodolphe37/cra-react-ultimate-messenger.git
-```
-After that, you can do the npx command which allows to install a classic React, but with the template option.
-
-```shell
-npx create-react-app my-app --template file:../path/to/your/template/folder/you/just/cloned/cra-react-ultimate-messenger
+git clone https://github.com/rodolphe37/rum-open-sources.git
 ```
 
-## Start your site
+## Start your local site version
 
 ***Run the development server:***
 
@@ -97,7 +90,11 @@ Your site starts at `http://localhost:3000`.
 
 ## To work with this version
 
+Of course, it is **important to contact me beforehand** to submit the **idea of your feature**, or to **discuss the important points** in this project, **the logic, the paradigm and the dynamics**...
+
  Open your App folder with your **usual editor** and **start making your React App as usual**!
+
+ **Create a local branch**, work on it, then make a **pull request on the contribution branch**, I will do the **code review and integration** on the **prod version** if your feature is **stable, reliable and interesting for the dev/users** who will use this Web Application.
 <!--
 
 - [x] Write the press release
