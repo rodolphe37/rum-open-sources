@@ -3,3 +3,4 @@
 /resources
 package-lock.json
 .env
+/uploads
