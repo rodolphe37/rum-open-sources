@@ -8,12 +8,24 @@ Let's discover **React Ultimate Messenger in less than 5 minutes**.
 
  ## Full documentation site
 
-**You can go directly to the complete documentation site about the application and its different versions available.** **[here](https://react-ultimate-messenger-documentation.netlify.app/)**,
+**You can go directly to the complete (Classic & PWA versions) documentation site about the application.** **[here](https://react-ultimate-messenger-documentation.netlify.app/)**,
 
 
 ## Online Demo sites
 
+### Classic RUM version
+
 **You can try Classic React Ultimate Messenger** **[here](https://react-ultimate-messenger.netlify.app/)**,
+
+### PWA versions
+
+**You can try PWA React Ultimate Messenger**
+
+You have two versions with mobile devices menu!
+
+**[With Classic bottom menu](https://pwa-react-ultimate-messenger-with-bottom-menu.netlify.app/)**,
+
+**[With Radial burger menu](https://pwa-react-ultimate-messenger-with-radial-menu.netlify.app/)**,
 
 (The demo is not fully functional without the server started locally*)
 
@@ -95,6 +107,12 @@ Of course, it is **important to contact me beforehand** to submit the **idea of 
  Open your App folder with your **usual editor** and **start making your React App as usual**!
 
  **Create a local branch**, work on it, then make a **pull request on the contribution branch**, I will do the **code review and integration** on the **prod version** if your feature is **stable, reliable and interesting for the dev/users** who will use this Web Application.
+
+ ## All RUM version template repositories:
+
+ **[Classic React Ultimate Messenger](https://github.com/rodolphe37/cra-react-ultimate-messenger)**,
+
+ **[PWA React Ultimate Messenger](https://github.com/rodolphe37/cra-pwa-react-ultimate-messenger)**,
 <!--
 
 - [x] Write the press release
