@@ -115,20 +115,35 @@ Of course, it is **important to contact me beforehand** to submit the **idea of 
  **[Classic React Ultimate Messenger](https://github.com/rodolphe37/cra-react-ultimate-messenger)**,
 
  **[PWA React Ultimate Messenger](https://github.com/rodolphe37/cra-pwa-react-ultimate-messenger)**,
-<!--
 
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+---
 
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+## Author
 
-[^1]: This is the first footnote.
+- Thought, designed and developed with :purple_heart: by Rodolphe Augusto
 
-[^bignote]: Here's one with multiple paragraphs and code.
+---
 
-    Indent paragraphs to include them in the footnote.
+## A few words from the author
 
-    `{ my code }`
+Enjoy the World :smirk:
 
-    Add as many paragraphs as you like. -->
+
+## :sparkling_heart: Support the project
+
+I put almost everything open-source I can, and try to accommodate anyone who needs help using these projects. Obviously,
+this takes time. You can use this service for free.
+
+However, if you are using this project and are happy with it or just want to encourage me to keep creating: -
+
+- Put a star and share the project :rocket:
+
+Thank you! :heart:
+
+
+## License
+
+MIT
+
+---
+
