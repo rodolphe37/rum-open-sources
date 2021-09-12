@@ -1,3 +1,12 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rodolphe37/rum-open-sources/blob/main/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/rodolphe37/rum-open-sources/graphs/commit-activity)
+[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://github.com/rodolphe37/rum-open-sources)
+[![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
+[![GitHub issues](https://badgen.net/github/issues/rodolphe37/rum-open-sources/)](https://github.com/rodolphe37/rum-open-sources/issues)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/rodolphe37/rum-open-sources)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
+
+
 [![Website](https://i.imgur.com/xSu6S5v.png)](https://rodolphe-augusto.fr)
 [![Website](demo/docu.png)](https://react-ultimate-messenger-documentation.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3ec8fbd7-9fc6-42aa-b26f-0f9040c01255/deploy-status)](https://app.netlify.com/sites/react-ultimate-messenger/deploys)
